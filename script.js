@@ -1,4 +1,4 @@
-const apiKey = '0ca97a8469c34136bd6131530251302'; // Your WeatherAPI key
+const apiKey = '6e66635fa7e84868b17134411251302'; // Your WeatherAPI key
 const searchBtn = document.getElementById('search-btn');
 const cityInput = document.getElementById('city-input');
 const weatherInfo = document.getElementById('weather-info');
@@ -17,7 +17,6 @@ lackinfoBtn.addEventListener('click', () => {
     window.location.href = 'https://lackinfo.com';
 });
 
-// Append the button inside the container (below the weather search section)
 const container = document.querySelector('.container');
 container.appendChild(lackinfoBtn);
 searchBtn.addEventListener('click', () => {
