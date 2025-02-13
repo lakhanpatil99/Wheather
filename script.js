@@ -29,7 +29,7 @@ searchBtn.addEventListener('click', () => {
 });
 
 async function getWeatherData(city) {
-    const apiUrl = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}&aqi=no`;
+    const apiUrl = `api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}&aqi=no`;
 
     try {
         const response = await fetch(apiUrl);
